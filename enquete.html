@@ -1,7 +1,7 @@
 <!DOCKTYPE html>
 <html>
     <head>
-        <title>poesias tops</title>
+        <title>poesias em pauta</title>
         <meta charset="UTF-8">
         <base target="_blank">
         <style> 
@@ -32,6 +32,16 @@
             li a:hover {
             background-color: red;
                                         }
+                        p {background-color: white;
+               font-size: 20;
+               padding: 19px;
+               margin: 20;
+               text-align: center
+            } 
+            h1 {text-align: center}
+            h2 {text-align: center}
+            form {text-align: center}
+
         </style>
     </head>
     
@@ -44,7 +54,53 @@
         <li><a href="cultural.html">Cultural</a></li>    
     </ul>
 
-   <h1 style="text-align: center;"> enquete </h1>
+   <h1 style="text-align: center;"> Enquete </h1>
+        <form>
+            
+            Autor favorito:<br>
+            <input type="text" name="Autor Favorito"><br><br>
+            Obra favorita:<br>
+            <input type="text" name="Obra favorita"><br><br>
+            Você gosta de poesia?<br>
+            <input type="radio" name="gostar" value="Não" checked id="Não"> <label for= "Não">Não</label><br>
+            <input type="radio" name="gostar" value="Sim" id="sim"> <label for= "sim">Sim</label><br><br>
+            Você escreve poesia?<br>
+            <input type="radio" name="escrever" value="Não" checked id="nem"> <label for= "nen"> Não</label><br>
+            <input type="radio" name="escrever" value="Sim" id="sim2"><label for= "sim2"> Sim</label><br><br>
+            Você conhece alguém que escreve poesia?<br>
+            <input type="radio" name="conhecer" value="Não" checked id="nin"> <label for= "nin">Não</label><br>
+            <input type="radio" name="conhecer" value="Sim" id="sim3"> <label for= "sim3">Sim</label><br><br>
+    
+            Qual destes poetas você conhece?<br>
+            <input type="checkbox" name="poetas" value="Drummond" id="cda"><label for= "cda"> Carlos Drummond de Andrade</label>
+            <input type="checkbox" name="poetas" value="Lispector" id="cl"><label for= "cl"> Clarice Lispector</label><br>
+            <input type="checkbox" name="poetas" value="Prado" id="ap"><label for= "ap"> Adélia Prado</label>
+            <input type="checkbox" name="poetas" value="Coralina" id="cc"><label for= "cc">Cora Coralina</label><br>
+            <input type="checkbox" name="poetas" value="Hilst" id="hh"><label for= "hh"> Hilda Hilst</label>
+            <input type="checkbox" name="poetas" value="Meireles" id="cm"><label for= "cm"> Cecília Meireles</label><br>
+            <input type="checkbox" name="poetas" value="Bandeira" id="mb"><label for= "mb"> Manuel Bandeira</label>
+            <input type="checkbox" name="poetas" value="Barros" id="mb2"><label for= "mb2"> Manoel de Barros</label><br><br>
+            Qual dessas obras você conhece?<br>
+            <input type="checkbox" name="poetas2" value="No meio do caminho" id="nmc"><label for= "nmc"> No meio do caminho</label>
+            <input type="checkbox" name="poetas2" value="O sonho" id="son"><label for= "son"> O sonho</label><br>
+            <input type="checkbox" name="poetas2" value="Com licença poética" id="clp"> <label for= "clp">Com licença poética</label>
+            <input type="checkbox" name="poetas2" value="Mulher da vida" id="mul"><label for="mul"> Mulher da vida</label><br>
+            <input type="checkbox" name="poetas2" value="Tateio" id="tat"><label for= "tat"> Tateio</label>
+            <input type="checkbox" name="poetas2" value="Motivo" id="mot"><label for= "sim4"><label for= "mot">Motivo</label><br>
+            <input type="checkbox" name="poetas2" value="Desencanto" id="des"><label for= "des"> Desencanto</label>
+            <input type="checkbox" name="poetas2" value="Os deslimites da palavra" id="desl"><label for= "desl"> Os deslimites da palavra</label><br><br>
+            Qual escola literária poética mais lhe agrada?<br>
+            <input type="text" name="Escola Favorito"><br><br>
+            
+            Qual escola literária poética menos lhe agrada?<br>
+            <input type="text" name="Escola menos  Favorito"><br><br>
+            
+            Esse site mudou a forma com que você enxerga a poesia?<br>
+            <input type="radio" name="enxergar" value="Não" checked id="Não4"><label for= "Não4"> Não</label><br>
+            <input type="radio" name="enxergar" value="Sim" id="sim4"><label for= "sim4"> Sim<br><br></label>
+            <input type="submit" value="Enviar">
+            
+        </form>
     </body>
 </html>
         
