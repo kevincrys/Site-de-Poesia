@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Olá Mundo</title>
+<script>
+function dizOla() {
+var nomeUsuario = document.getElementById("nome").value;
+document.getElementById("demo").innerHTML = "Olá " + nomeUsuario + ", seja bem-vindo(a)!";
+}
+</script>
+</head>
+<body>
+<h1>Qual o seu nome?</h1>
+<p>Nome: <input type="text" id="nome"></p>
+<p><button onClick="dizOla()">Diga "Olá!"</button></p>
+<p id="demo"></p>
+</body>
+</html>
