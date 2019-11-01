@@ -4,52 +4,42 @@
     <head>
         <title>poesias em pauta</title>
         <meta charset="UTF-8">
-        <base target="_blank">
-        <style> 
-            body {background-color: lavender}
-            ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color:transparent;}
-            li {background-color: white; }
-            li a {
-            display:block;
-            color: black;
-            text-align: center;
-            padding: 16px;
-            text-decoration: none;}
-            li a:hover {
-            background-color: red;}
-            p {background-color: white;
-               font-size: 20px ;
-               padding: 19px;
-               margin: 20px ;
-               text-align: center} 
-            h1 {text-align: center}
-            h2 {text-align: center}
-            table {border=1;
-                  background-color: white;
-                  border color: black}
-                
+        <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="design.css">
+               <style>
+            h1:hover{color: goldenrod}
         </style>
+
     </head>
     
     <body>
+   <header>
+        <h2>Poesia em pauta</h2>
+        </header>
+        <nav>
     <ul>
-        <li style="background-color: mistyrose; float: right; border: solid 1px black; font-size: 20px"><a href="index.html">Index</a></li>
-        <li style="background-color: mistyrose; float: right; border: solid 1px black; font-size: 20px"> <a href="equipamentos.html">Equipamentos</a></li>
-        <li style="background-color: mistyrose; float: right; border: solid 1px black; font-size: 20px"><a href="Pesquisa.html">Pesquisa</a></li>
-        <li style="background-color: mistyrose; float: right; border: solid 1px black; font-size: 20px"><a href="enquete.html">Enquete</a></li>
-        <li style="background-color: mistyrose; float: right; border: solid 1px black; font-size: 20px" ><a href="cultural.html">Cultural</a></li>    
+        <li class="menu"><a href="index.html">Index</a></li>
+        <li class="menu"> <a href="equipamentos.html">Equipamentos</a></li>
+        <li class="menu"><a href="Pesquisa.html">Pesquisa</a></li>
+        <li class="menu"><a href="enquete.html">Enquete</a></li>
+        <li class="menu"><a href="cultural.html">Cultural</a></li>   
     </ul>
-
-
+        </nav>
+        <aside>
+            <ul>
+             <li><a href="#metrica"> Métrica</a> </li>
+             <li><a href="#ritmo"> Ritmo</a> </li>
+             <li><a href="#rima"> Rima</a></li>
+    </ul>
+        </aside>
+<section>
         <h1> Equipamentos</h1>
+        
         <p> Os elementos necessários para escrever uma poesia, fora os fisicos, são 3<br>
             são necessários: métrica, ritmo e rima<br></p>
-        <h2>Métrica</h2> 
+        <h2 id="metrica">Métrica</h2> 
         <p>Na língua portuguesa existem doze espécies de versos, que podem conter desde uma a doze silabas métricas, podendo ou não ser constante. Esta contagem tem algumas caracteristicas:
         <ol>
         <li>A contagem sempre termina na sílaba tônica da última palavra de cada verso. A contagem das demais sílabas dessa mesma última palavra são dispensadas, se houver;</li>
@@ -60,14 +50,14 @@
         <li>Os hiatos podem dar origem a ditongos e estes, embora com menos frequencia, em hiatos;</li>
         <li>Quando a palavra termina em "m" e a seguinte começa com vogal, pode acontecer o desaparecimento da consoante, numa figura poética que recebe o nome de ectlipse;</li>
         </ol>
-<h2>Ritmo</h2>
+<h2 id="ritmo">Ritmo</h2>
 <p>O ritmo é um recurso estilístico que consiste na divisão de tempo em períodos uniformes mediante a sucessão de intensidades diferentes nas sílabas poéticas dos versos, que nos transmitem uma impressão agradável e musical, os fatores que influenciam o ritmo são: a métrica, a rima e a acentuação
        </p>
-        <h2>Rima</h2>
+        <h2 id="rima">Rima</h2>
 <p>rima é a repetição de fonemas identicos ou semelhantes em versos diferentes. apesar de importante para determinaro ritmo e a sonoridade da poesia existem poesias sem rimas.  as rimas podem ser classificadas de algumas formas
 </p>  
         <p>Classificação quanto à fonética</p>
-        <table border="1" align=center>
+      <table border="1" align=center>
             <tr>
                 <th colspan="2">Classificação quanto à fonética</th>
             </tr>
@@ -90,7 +80,7 @@
         </table>
         <p>Classificação quanto ao valor</p>
         
-         <table border="1" align=center>
+        <table border="1" align=center>
             <tr>
                 <th colspan="2">Classificação quanto ao valor</th>
             </tr>
@@ -111,7 +101,7 @@
         </table>
         <p>Classificação quanto à acentuação</p>
         
-           <table border="1" align=center>
+           <table border="1" align=center >
             <tr>
                 <th colspan="2">Classificação quanto à acentuação</th>
             </tr>
@@ -174,9 +164,16 @@
                 <tr>
                 <td>Versos brancos (ou soltos)</td>
                 <td>São versos que não rimam com nenhum outro verso.</td>
-            </tr>
+                 </tr>
+                </table>
+</section>
+
+     <footer>
+<p>criado por Kevin Crystian
+        <a href=https://www.facebook.com/poetaprolixo>facebook</a> </p>
+</footer>
+           
    
-        </table>
     </body>
 </html>
         

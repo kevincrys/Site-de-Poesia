@@ -1,0 +1,170 @@
+            @charset "UTF-8";   
+            /* --------------------------------------- */
+            /* Define o background */
+            /* --------------------------------------- */
+            body {background-image:url(background1.jpg)}
+           /* --------------------------------------- */
+            /* Define o formato de alteração */
+            /* --------------------------------------- */
+            * {
+                box-sizing: border-box; }
+            /* --------------------------------------- */
+            /* Define o padrao do header */
+            /* --------------------------------------- */
+            header{
+                background-color:white;
+                padding:3px;
+                color: black; 
+                width: 80%;
+                font-size: 20px;}
+              
+            /* --------------------------------------- */
+            /* Define o padrao do nav */
+            /* --------------------------------------- */
+            nav {
+                     padding: 10px 0px;
+                     overflow: hidden; 
+                     width: 80%;
+                     background-color: transparent;
+                     margin-bottom: 7px;
+                     margin-top: 7px;
+                background-color: white
+             }
+            /* --------------------------------------- */
+            /* Define o padrao do aside */
+            /* --------------------------------------- */
+            aside {
+                    background-color: white;
+                    width: 20%;
+                    padding: 0px 15px;
+                    margin-top: 90px;
+                    float: right;
+                    border: solid 1px black;
+                    position: sticky;
+                    top: 5px;
+}
+             /* --------------------------------------- */
+            /* Define o padrao do section */
+            /* --------------------------------------- */
+            section {
+                    float: left;
+                    width: 80%;
+                    padding: 0 20px;
+                    overflow: hidden;
+                    background-color: white
+             /* --------------------------------------- */
+            /* Define o padrao do footer */
+           /* --------------------------------------- */
+            }
+            footer {
+                    background-color: white;
+                    text-align: center;
+                    font-size: 12px;
+                    float: left;
+                    width: 100%;
+                padding: 10px 15px;
+                margin-top: 7px;}   
+            /* --------------------------------------- */
+            /* Define lista */
+            /* --------------------------------------- */
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color:transparent;
+                                            }
+            /* --------------------------------------- */
+            /* Define elemento de lista */
+            /* --------------------------------------- */
+            li {
+                background-color:transparent}
+            /* --------------------------------------- */
+            /* Define elemento de lista do meno*/
+            /* --------------------------------------- */
+            li.menu{
+                background-color: transparent; 
+                float: left;
+                border: solid 1px black;
+                font-size: 20px
+            }
+            /* --------------------------------------- */
+            /* Define link em lista */
+            /* --------------------------------------- */
+            li a {
+                    display:block;
+                    color: black;
+                    text-align: center;
+                    padding: 16px;
+                    text-decoration: none;}
+                                    
+            /* --------------------------------------- */
+            /* Define link selecionado */
+            /* --------------------------------------- */
+            li a:hover {
+            background-color: red;}
+    
+            /* --------------------------------------- */
+            /* Define o padrao do paragrafo */
+            /* --------------------------------------- */
+
+            p {
+               font-size: 20px ;
+               padding: 19px;
+               margin: 20px ;
+               text-align: center}
+              /* --------------------------------------- */
+            /* Define o titulo 1 */
+            /* --------------------------------------- */
+
+            h1 {text-align: center}
+            /* --------------------------------------- */
+            /* Define o titulo 2 */
+            /* --------------------------------------- */
+            h2 {text-align: center}
+             /* --------------------------------------- */
+            /* Define tabela */
+            /* --------------------------------------- */
+            table {border: 5px;
+                  background-color: transparent;
+                  border-color: black;
+                       }
+            form {text-align: center;}
+            /* --------------------------------------- */
+            /* Define predefinido */
+            /* --------------------------------------- */
+            pre {text-align: center}
+            /* --------------------------------------- */
+            /* Define link selecionado */
+            /* --------------------------------------- */
+            a:hover{background-color: aqua}
+             /* --------------------------------------- */
+            /* Define link visitado */
+            /* --------------------------------------- */
+            a:visited{ background-color: blue}
+            /* --------------------------------------- */
+            /* Define link não visitado */
+            /* --------------------------------------- */
+            a:link{background-color: transparent}
+
+ /* For tablets: */
+@media only screen and (max-width:800px) {
+          
+             section {
+             width: 80%;
+             padding: 0;
+
+            }
+             aside {
+             width: 100%;
+
+            }
+            }
+/* For mobile phones: */
+@media only screen and (max-width:500px) {
+             
+             nav, section, aside {
+             width: 100%;
+            }
+    li.menu{float: inherit;}
+}

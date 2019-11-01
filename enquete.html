@@ -4,72 +4,63 @@
     <head>
         <title>poesias em pauta</title>
         <meta charset="UTF-8">
-        <base target="_blank">
-        <style> 
-            body {background-color: lavender}
-            ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color:transparent;
-                                            }
-            li {
-            float: right;
-            background-color: MistyRose;
-            border: solid 1px black;
-            font-size: 20px}
-
-            li a {
-            display:block;
-            color: black;
-            text-align: center;
-            padding: 16px;
-            text-decoration: none;
-                                    }
-            li a:hover {
-            background-color: red;
-                                        }
-            p {background-color: white;
-               font-size: 20px;
-               padding: 19px;
-               margin: 20px;
-               text-align: center
-            } 
-            h1 {text-align: center}
-            h2 {text-align: center}
-            form {text-align: center}
-
+        <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="design.css">
+         <style>
+            h1:hover{color: green}
+            #1{color: aliceblue}
+            #2{color:antiquewhite}
+            #3{font color:aqua}
+            #4 {font color:aquamarine}
+            #5 {font color:azure}
+            #6 {font color:beige}
+            #7 {font color:bisque}
+            #8 {font color:black}
+            #9 {font color:blue}
+            #10 {font color:burlywood}
+            
         </style>
     </head>
     
     <body>
-    <ul>
-        <li><a href="index.html">Index</a></li>
-        <li><a href="equipamentos.html">Equipamentos</a></li>
-        <li><a href="Pesquisa.html">Pesquisa</a></li>
-        <li><a href="enquete.html">Enquete</a></li>
-        <li><a href="cultural.html">Cultural</a></li>    
-    </ul>
 
+<header>
+        <h2> Poesia em pauta</h2>
+</header>
+        <nav>
+     <ul>
+        <li class="menu"><a href="index.html">Index</a></li>
+        <li class="menu"> <a href="equipamentos.html">Equipamentos</a></li>
+        <li class="menu"><a href="Pesquisa.html">Pesquisa</a></li>
+        <li class="menu"><a href="enquete.html">Enquete</a></li>
+        <li class="menu"><a href="cultural.html">Cultural</a></li>   
+    </ul>
+        </nav>
+        <aside>
+        <p>essa enquete busca avaliar a forma como você se relaciona com a poesia e se houve alguma mudança após conhecer esse site</p>
+        
+        </aside>
+        <section>
    <h1 style="text-align: center;"> Enquete </h1>
         <form>
             
-            Autor favorito:<br>
-            <input type="text" name="Autor Favorito"><br><br>
-            Obra favorita:<br>
+            <p id="1">Autor favorito:</p><br>
+            <input type="text" name="Autor Favorito"></p><br><br>
+            <p id="2">Obra favorita:</p><br>
             <input type="text" name="Obra favorita"><br><br>
-            Você gosta de poesia?<br>
+            <p id="3">Você gosta de poesia?</p><br>
             <input type="radio" name="gostar" value="Não" checked id="Não"> <label for= "Não">Não</label><br>
             <input type="radio" name="gostar" value="Sim" id="sim"> <label for= "sim">Sim</label><br><br>
-            Você escreve poesia?<br>
-            <input type="radio" name="escrever" value="Não" checked id="nem"> <label for= "nen"> Não</label><br>
+            <p id="4">Você escreve poesia?</p><br>
+            <input type="radio" name="escrever" value="Não" checked id="nem"> <label for= "nem"> Não</label><br>
             <input type="radio" name="escrever" value="Sim" id="sim2"><label for= "sim2"> Sim</label><br><br>
-            Você conhece alguém que escreve poesia?<br>
+            <p id="5">Você conhece alguém que escreve poesia?</p><br>
             <input type="radio" name="conhecer" value="Não" checked id="nin"> <label for= "nin">Não</label><br>
             <input type="radio" name="conhecer" value="Sim" id="sim3"> <label for= "sim3">Sim</label><br><br>
     
-            Qual destes poetas você conhece?<br>
+            <p id="6">Qual destes poetas você conhece?</p><br>
             <input type="checkbox" name="poetas" value="Drummond" id="cda"><label for= "cda"> Carlos Drummond de Andrade</label>
             <input type="checkbox" name="poetas" value="Lispector" id="cl"><label for= "cl"> Clarice Lispector</label><br>
             <input type="checkbox" name="poetas" value="Prado" id="ap"><label for= "ap"> Adélia Prado</label>
@@ -78,7 +69,7 @@
             <input type="checkbox" name="poetas" value="Meireles" id="cm"><label for= "cm"> Cecília Meireles</label><br>
             <input type="checkbox" name="poetas" value="Bandeira" id="mb"><label for= "mb"> Manuel Bandeira</label>
             <input type="checkbox" name="poetas" value="Barros" id="mb2"><label for= "mb2"> Manoel de Barros</label><br><br>
-            Qual dessas obras você conhece?<br>
+            <p id="7">Qual dessas obras você conhece?</p><br>
             <input type="checkbox" name="poetas2" value="No meio do caminho" id="nmc"><label for= "nmc"> No meio do caminho</label>
             <input type="checkbox" name="poetas2" value="O sonho" id="son"><label for= "son"> O sonho</label><br>
             <input type="checkbox" name="poetas2" value="Com licença poética" id="clp"> <label for= "clp">Com licença poética</label>
@@ -87,17 +78,22 @@
             <input type="checkbox" name="poetas2" value="Motivo" id="mot"><label for= "mot">Motivo</label><br>
             <input type="checkbox" name="poetas2" value="Desencanto" id="des"><label for= "des"> Desencanto</label>
             <input type="checkbox" name="poetas2" value="Os deslimites da palavra" id="desl"><label for= "desl"> Os deslimites da palavra</label><br><br>
-            Qual escola literária poética mais lhe agrada?<br>
+            <p id="8">Qual escola literária poética mais lhe agrada?</p><br>
             <input type="text" name="Escolafavorita"><br><br>
             
-            Qual escola literária poética menos lhe agrada?<br>
+            <p id="9">Qual escola literária poética menos lhe agrada?</p><br>
             <input type="text" name="Escolamenosfavorita"><br><br>
             
-            Esse site mudou a forma com que você enxerga a poesia?<br>
+            <p id="10">Esse site mudou a forma com que você enxerga a poesia?</p><br>
             <input type="radio" name="enxergar" value="Não" checked id="Não4"> <label for= "Não4"> Não</label><br>
             <input type="radio" name="enxergar" value="Sim" id="sim4"> <label for= "sim4"> Sim<br><br></label>
             <input type="submit" value="Enviar">
              </form>
+            </section>
+        <footer>
+<p>criado por Kevin Crystian
+        <a href=https://www.facebook.com/poetaprolixo>facebook</a> </p>
+</footer>
     </body>
 </html>
         
