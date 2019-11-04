@@ -128,6 +128,8 @@
             table {border: 5px;
                   background-color: transparent;
                   border-color: black;
+                  margin-right:auto;
+                  margin-left:auto;
                        }
             form {text-align: center;}
             /* --------------------------------------- */
